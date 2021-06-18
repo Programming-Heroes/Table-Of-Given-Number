@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int num,res,i;
+printf("Enter The Number :- ");
+scanf("%d",&num);
+for(i=1;i<=10;i++)
+{
+res=num*i;
+printf("%d",res);
+printf("\n");
+}
+getch();
+}
